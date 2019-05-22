@@ -3145,9 +3145,9 @@
 												"$ref": "AAAAAAFq2VT64GM1AE4="
 											},
 											"font": "Arial;13;0",
-											"left": 146,
+											"left": 105,
 											"top": 331,
-											"width": 78.04443359375,
+											"width": 161.0654296875,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -3155,7 +3155,7 @@
 												"$ref": "AAAAAAFq2VT64GM2GZ8="
 											},
 											"edgePosition": 1,
-											"text": "7 : 审核通过"
+											"text": "7 : 填写样书数量并下载表格"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3266,7 +3266,7 @@
 												"$ref": "AAAAAAFq2VUk32NND5Q="
 											},
 											"edgePosition": 1,
-											"text": "8 : 填写折扣信息与教务处样书数量"
+											"text": "8 : 交给书商"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3367,9 +3367,9 @@
 												"$ref": "AAAAAAFq2VVkT2NioD4="
 											},
 											"font": "Arial;13;0",
-											"left": 141,
+											"left": 138,
 											"top": 411,
-											"width": 103.29541015625,
+											"width": 109.0654296875,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -3377,7 +3377,7 @@
 												"$ref": "AAAAAAFq2VVkT2NjgL0="
 											},
 											"edgePosition": 1,
-											"text": "9 : 完成购书计划"
+											"text": "9 : 导入折扣信息表"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3456,6 +3456,117 @@
 									},
 									"activation": {
 										"$ref": "AAAAAAFq2VVkT2NnWrs="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAFq3lJfXWhCoz8=",
+									"_parent": {
+										"$ref": "AAAAAAFq2VEpTGI78fk="
+									},
+									"model": {
+										"$ref": "AAAAAAFq3lJfXGhBFcM="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFq3lJfXWhDaxg=",
+											"_parent": {
+												"$ref": "AAAAAAFq3lJfXWhCoz8="
+											},
+											"model": {
+												"$ref": "AAAAAAFq3lJfXGhBFcM="
+											},
+											"font": "Arial;13;0",
+											"left": 128,
+											"top": 443,
+											"width": 129.29541015625,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAFq3lJfXWhCoz8="
+											},
+											"edgePosition": 1,
+											"text": "10 : 审核通过完成计划"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFq3lJfXWhEUHM=",
+											"_parent": {
+												"$ref": "AAAAAAFq3lJfXWhCoz8="
+											},
+											"model": {
+												"$ref": "AAAAAAFq3lJfXGhBFcM="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 207,
+											"top": 443,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAFq3lJfXWhCoz8="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFq3lJfXWhFt9w=",
+											"_parent": {
+												"$ref": "AAAAAAFq3lJfXWhCoz8="
+											},
+											"model": {
+												"$ref": "AAAAAAFq3lJfXGhBFcM="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 173,
+											"top": 444,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAFq3lJfXWhCoz8="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAFq3lJfXWhGl+w=",
+											"_parent": {
+												"$ref": "AAAAAAFq3lJfXWhCoz8="
+											},
+											"model": {
+												"$ref": "AAAAAAFq3lJfXGhBFcM="
+											},
+											"font": "Arial;13;0",
+											"left": 140,
+											"top": 460,
+											"width": 14,
+											"height": 29
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFq2VFsgmJQ/NQ="
+									},
+									"tail": {
+										"$ref": "AAAAAAFq2VFsgmJQ/NQ="
+									},
+									"points": "153:440;183:440;183:460;153:460",
+									"nameLabel": {
+										"$ref": "AAAAAAFq3lJfXWhDaxg="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFq3lJfXWhEUHM="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFq3lJfXWhFt9w="
+									},
+									"activation": {
+										"$ref": "AAAAAAFq3lJfXWhGl+w="
 									}
 								}
 							]
@@ -3552,7 +3663,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFq2VEpTGI69+A="
 							},
-							"name": "审核通过",
+							"name": "填写样书数量并下载表格",
 							"source": {
 								"$ref": "AAAAAAFq2VFsgWJJFeE="
 							},
@@ -3566,7 +3677,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFq2VEpTGI69+A="
 							},
-							"name": "填写折扣信息与教务处样书数量",
+							"name": "交给书商",
 							"source": {
 								"$ref": "AAAAAAFq2VFsgWJJFeE="
 							},
@@ -3580,7 +3691,21 @@
 							"_parent": {
 								"$ref": "AAAAAAFq2VEpTGI69+A="
 							},
-							"name": "完成购书计划",
+							"name": "导入折扣信息表",
+							"source": {
+								"$ref": "AAAAAAFq2VFsgWJJFeE="
+							},
+							"target": {
+								"$ref": "AAAAAAFq2VFsgWJJFeE="
+							}
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAFq3lJfXGhBFcM=",
+							"_parent": {
+								"$ref": "AAAAAAFq2VEpTGI69+A="
+							},
+							"name": "审核通过完成计划",
 							"source": {
 								"$ref": "AAAAAAFq2VFsgWJJFeE="
 							},
@@ -3636,7 +3761,8 @@
 					"_parent": {
 						"$ref": "AAAAAAFq2VEpSmI5yOY="
 					},
-					"name": "Role1"
+					"name": "Role1",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -3644,7 +3770,8 @@
 					"_parent": {
 						"$ref": "AAAAAAFq2VEpSmI5yOY="
 					},
-					"name": "Role2"
+					"name": "Role2",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -3652,7 +3779,8 @@
 					"_parent": {
 						"$ref": "AAAAAAFq2VEpSmI5yOY="
 					},
-					"name": "Role3"
+					"name": "Role3",
+					"type": ""
 				}
 			]
 		},
@@ -5122,7 +5250,8 @@
 					"_parent": {
 						"$ref": "AAAAAAFq2VdarmOb2cc="
 					},
-					"name": "Role1"
+					"name": "Role1",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -5130,7 +5259,8 @@
 					"_parent": {
 						"$ref": "AAAAAAFq2VdarmOb2cc="
 					},
-					"name": "Role2"
+					"name": "Role2",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -5138,7 +5268,8 @@
 					"_parent": {
 						"$ref": "AAAAAAFq2VdarmOb2cc="
 					},
-					"name": "Role3"
+					"name": "Role3",
+					"type": ""
 				}
 			]
 		},
@@ -6736,7 +6867,8 @@
 					"_parent": {
 						"$ref": "AAAAAAFq2V2MemU9c1U="
 					},
-					"name": "Role1"
+					"name": "Role1",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -6744,7 +6876,8 @@
 					"_parent": {
 						"$ref": "AAAAAAFq2V2MemU9c1U="
 					},
-					"name": "Role2"
+					"name": "Role2",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -6752,7 +6885,8 @@
 					"_parent": {
 						"$ref": "AAAAAAFq2V2MemU9c1U="
 					},
-					"name": "Role3"
+					"name": "Role3",
+					"type": ""
 				}
 			]
 		}
