@@ -1,5 +1,16 @@
 # 总体流程
 
+[![GitHub stars](https://img.shields.io/github/stars/HXCI-Studio/TMPP-Info.svg?style=social&label=Stars)](https://github.com/HXCI-Studio/TMPP-Info/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/HXCI-Studio/TMPP-Info.svg?style=social&label=Fork)](https://github.com/HXCI-Studio/TMPP-Info/network/members)
+[![GitHub watchers](https://img.shields.io/github/watchers/HXCI-Studio/TMPP-Info.svg?style=social&label=Watch)](https://github.com/HXCI-Studio/TMPP-Info/watchers)
+[![GitHub followers](https://img.shields.io/github/followers/HXCI-Studio.svg?style=social&label=Follow)](https://github.com/HXCI-Studio?tab=followers)
+
+[![GitHub issues](https://img.shields.io/github/issues/HXCI-Studio/TMPP-Info.svg)](https://github.com/HXCI-Studio/TMPP-Info/issues)
+[![GitHub license](https://img.shields.io/github/license/HXCI-Studio/TMPP-Info.svg)](https://github.com/HXCI-Studio/TMPP-Info/blob/master/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/HXCI-Studio/TMPP-Info.svg)](https://github.com/HXCI-Studio/TMPP-Info/commits)
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/HXCI-Studio/TMPP-Info.svg)](https://github.com/HXCI-Studio/TMPP-Info)
+[![HitCount](http://hits.dwyl.io/HXCI-Studio/TMPP-Info.svg)](http://hits.dwyl.io/HXCI-Studio/TMPP-Info)
+
 ![](./时序图/正常流程.png)
 
 ![](./时序图/办公室主任驳回.png)
